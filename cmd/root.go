@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dids/clobber/patches"
-	"github.com/Dids/clobber/util"
+	"github.com/warexify/clobber/patches"
+	"github.com/warexify/clobber/util"
 	figure "github.com/common-nighthawk/go-figure"
 	"github.com/gobuffalo/packr/v2"
 	"github.com/sirupsen/logrus"

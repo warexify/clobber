@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Dids/clobber/cmd"
+	"github.com/warexify/clobber/cmd"
 )
 
 // Version is set dynamically when building

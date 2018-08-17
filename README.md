@@ -1,17 +1,7 @@
-[![Build Status](https://travis-ci.org/Dids/clobber.svg?branch=master)](https://travis-ci.org/Dids/clobber)
+[![Build Status](https://travis-ci.org/warexify/clobber.svg?branch=master)](https://travis-ci.org/warexify/clobber)
 
 # Clobber
-
-```
- ___    _      _____  ___    ___    ___    ___
-(  _`\ ( )    (  _  )(  _`\ (  _`\ (  _`\ |  _`\
-| ( (_)| |    | ( ) || (_) )| (_) )| (_(_)| (_) )
-| |  _ | |  _ | | | ||  _ <'|  _ <'|  _)_ | ,  /
-| (_( )| |_( )| (_) || (_) )| (_) )| (_( )| |\ \
-(____/'(____/'(_____)(____/'(____/'(____/'(_) (_)
-                                         by @Dids
-```
-
+This is a fork of [Dids](https://github.com/Dids/clobber) repo, all changes applied for my personal needs.
 Clobber is command-line application for building [Clover](https://sourceforge.net/projects/cloverefiboot/).
 
 ### Requirements
@@ -25,8 +15,7 @@ The reason for this prompt comes from building `gettext`, so it's an unfortunate
 
 ### Installation
 
-> brew tap Dids/brewery  
-> brew install clobber  
+> go get -u github.com/warexify/clobber
 
 You can also install the latest development version:  
 > brew install clobber --HEAD  
