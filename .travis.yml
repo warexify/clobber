@@ -51,7 +51,7 @@ after_success: bash <(curl -s https://codecov.io/bash)
 cache:
   directories:
     - $HOME/.clobber/opt
-    - !$GOPATH/src/Dids/clobber
+    - !$GOPATH/src/warexify/clobber
     - $GOPATH/src
     - !$GOPATH/bin/clobber
     - $GOPATH/bin
